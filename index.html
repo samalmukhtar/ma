@@ -30,7 +30,7 @@
         }
 
         .link-table th {
-            background-color: #111111;
+            background-color: #000000;
             color: #FF0000;
             padding: 18px;
             font-size: 1.2em;
@@ -158,17 +158,57 @@
     </div>
 
     <!-- قسم الصور -->
-    <h1>صور للأطفال المبرمجين</h1>
+    <h1 style="color: #fff; text-align: center; margin-bottom: 40px;">أطفال مبرمجين<br><span style="color: #4CAF50;">زهرة الذكاء</span></h1>
+
     <div class="emoji-section">
-        <!-- صورة الأطفال المبرمجين -->
-        <img src="https://i.imgur.com/7bZ1LQD.jpg" alt="أطفال مبرمجون">
-
-        <!-- صورة روبوت بايثون الغامض -->
-        <img src="https://i.imgur.com/5z8X6qF.jpg" alt="روبوت بايثون الغامض">
-
-        <!-- صورة رمزية الويب المظلم -->
-        <img src="https://i.imgur.com/9WvJyYK.jpg" alt="رمزية الويب المظلم">
+        <!-- صورة طفل مع جهاز لوحي -->
+        <img src="https://images.pexels.com/photos/4144101/pexels-photo-4144101.jpeg" alt="طفل مع جهاز لوحي">
+        
+        <!-- صورة شاشة برمجة -->
+        <img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713" alt="شاشة برمجة">
+        
+        <!-- صورة أطفال يعملون على الكمبيوتر -->
+        <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg" alt="أطفال مع كمبيوتر">
     </div>
+    
+    <style>
+    body {
+        background-color: #000000;
+        margin: 0;
+        padding: 20px;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .emoji-section {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .emoji-section img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 2px solid #000000;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        transition: transform 0.3s ease;
+    }
+    
+    .emoji-section img:hover {
+        transform: scale(1.05);
+        border-color: #4CAF50;
+    }
+    
+    h1 span {
+        font-size: 0.8em;
+        display: block;
+        margin-top: 10px;
+    }
+    </style>
     <!-- قسم التذييل -->
     <div class="main-section">
         <footer style="text-align: center; padding: 30px;">
